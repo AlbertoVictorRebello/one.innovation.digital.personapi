@@ -30,6 +30,12 @@ public class PersonController {
         return personService.createPerson(personDTO);
     }
 
+    @PutMapping("/{id})")
+    @ResponseStatus(HttpStatus.OK)
+    public MessageResponseDTO updateById(@PathVariable Long id, @Valid PersonDTO personDTO) throws PersonNotFoundException {
+        return personService.updateById(id, personDTO);
+    }
+
     @GetMapping
     public List<PersonDTO> listAll() {
         return personService.listAll();
