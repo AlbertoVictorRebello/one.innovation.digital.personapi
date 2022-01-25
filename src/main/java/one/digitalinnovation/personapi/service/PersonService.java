@@ -3,7 +3,7 @@ package one.digitalinnovation.personapi.service;
 import lombok.AllArgsConstructor;
 import one.digitalinnovation.personapi.dto.MessageResponseDTO;
 import one.digitalinnovation.personapi.dto.request.PersonDTO;
-import one.digitalinnovation.personapi.entity.Person;
+import one.digitalinnovation.personapi.entities.Person;
 import one.digitalinnovation.personapi.exception.PersonNotFoundException;
 import one.digitalinnovation.personapi.mapper.PersonMapper;
 import one.digitalinnovation.personapi.repository.PersonRepository;

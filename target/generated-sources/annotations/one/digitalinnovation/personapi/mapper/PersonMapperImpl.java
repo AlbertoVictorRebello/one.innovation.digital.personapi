@@ -9,14 +9,14 @@ import one.digitalinnovation.personapi.dto.request.PersonDTO;
 import one.digitalinnovation.personapi.dto.request.PersonDTO.PersonDTOBuilder;
 import one.digitalinnovation.personapi.dto.request.PhoneDTO;
 import one.digitalinnovation.personapi.dto.request.PhoneDTO.PhoneDTOBuilder;
-import one.digitalinnovation.personapi.entity.Person;
-import one.digitalinnovation.personapi.entity.Person.PersonBuilder;
-import one.digitalinnovation.personapi.entity.Phone;
-import one.digitalinnovation.personapi.entity.Phone.PhoneBuilder;
+import one.digitalinnovation.personapi.entities.Person;
+import one.digitalinnovation.personapi.entities.Person.PersonBuilder;
+import one.digitalinnovation.personapi.entities.Phone;
+import one.digitalinnovation.personapi.entities.Phone.PhoneBuilder;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-01-24T22:12:28-0300",
+    date = "2022-01-25T17:09:59-0300",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 11.0.12 (Oracle Corporation)"
 )
 public class PersonMapperImpl implements PersonMapper {
