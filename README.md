@@ -50,5 +50,22 @@ Abaixo, seguem links bem bacanas, sobre tópicos mencionados durante a aula:
 
 [Neste link](https://drive.google.com/file/d/1crVPOVl6ok2HeYjh3fjQuGQn2lDZVHrn/view?usp=sharing), seguem os slides apresentados como o roteiro utilizado para o desenvolvimento do projeto da nossa sessão.
 
+Notas de Alberto Victor Rebello
+1 - Agradecimentos ao Rodrigo Peleias Software Developer, ClickBus. Seu código original pde ser encontrado em: https://github.com/rpeleias/personApi
+
+2 - Gostaria de ressaltar alguns do vários pontos aprendidos ou, cujo uso foi melhor entendido, durante a execução desse projeto:
+- Organização da API segregando as funcionalidades em camadas, com classes dedicadas a uma responsabilidade principal.
+- Uso da biblioteca mapstruct.
+- Uso da biblioteca lombok.
+- Teste unitário de um método.
+- Modelagem de objetos representado entidades de bancos de dados com relacionamento um para muitos.
+- Criação de exceções personalizadas.
+- As anotações:
+--@Data
+--@Entity
+--@ResponseStatus
+--@Builder
+--@AllArgsConstructor(onConstructor = @__({@Autowired}))
+--@NoArgsConstructor
 
 
